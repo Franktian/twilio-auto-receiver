@@ -16,4 +16,4 @@ app.post('/voice', (req, res) => {
 
 console.log('Something happened!');
 
-app.listen(1337);
+app.listen(3000, '0.0.0.0');

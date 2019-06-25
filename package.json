@@ -1,0 +1,25 @@
+{
+  "name": "twilio-auto-receiver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "serverless-http": "^2.0.2",
+    "twilio": "^3.30.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franktian/twilio-auto-receiver.git"
+  },
+  "author": "Frank Tian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Franktian/twilio-auto-receiver/issues"
+  },
+  "homepage": "https://github.com/Franktian/twilio-auto-receiver#readme"
+}

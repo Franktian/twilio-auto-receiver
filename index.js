@@ -1,4 +1,5 @@
 const express = require('express');
+const serverless = require('serverless-http');
 const VoiceResponse = require('twilio').twiml.VoiceResponse;
 
 const app = express();
@@ -12,6 +13,4 @@ app.post('/voice', (req, res) => {
     res.send(twiml.toString());
 });
 
-console.log('Something happened!');
-
-app.listen(1337, '0.0.0.0');
+module.exports.handler = serverless(app);
